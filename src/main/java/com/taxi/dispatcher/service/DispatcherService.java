@@ -1,11 +1,5 @@
-package com.taxi.dispatcher.service;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class DispatcherService {
-
-    public String findNearestDriver(String startAddress) {
-        return "Driver found at " + startAddress;
-    }
+public String findNearestDriver(String startAddress) {
+    // Feature-2: алгоритм с учётом рейтинга
+    System.out.println("Feature-2: Поиск водителя с учётом рейтинга");
+    return "Best rated driver found at " + startAddress;
 }
