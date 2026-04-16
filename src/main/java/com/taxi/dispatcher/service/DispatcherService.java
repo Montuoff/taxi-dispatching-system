@@ -1,5 +1,5 @@
 public String findNearestDriver(String startAddress) {
-    // Feature-2: алгоритм с учётом рейтинга
-    System.out.println("Feature-2: Поиск водителя с учётом рейтинга");
-    return "Best rated driver found at " + startAddress;
+    // Объединённый алгоритм
+    System.out.println("Алгоритм диспетчеризации: поиск ближайшего водителя с учётом рейтинга");
+    return "Selected best driver at " + startAddress;
 }
