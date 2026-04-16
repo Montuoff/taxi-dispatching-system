@@ -1,5 +1,5 @@
 public String findNearestDriver(String startAddress) {
-    // Feature-1: алгоритм поиска по прямой линии
-    System.out.println("Feature-1: Поиск ближайшего водителя по прямой линии");
-    return "Nearest driver (straight line) found at " + startAddress;
+    // Объединённый алгоритм
+    System.out.println("Алгоритм диспетчеризации: поиск ближайшего водителя с учётом рейтинга");
+    return "Selected best driver at " + startAddress;
 }
